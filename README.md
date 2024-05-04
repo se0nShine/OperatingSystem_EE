@@ -17,7 +17,8 @@ Sudo apt-get install qemu
 
 ```bash
 cd
-git clone https://github.com/se0nShine/OperatingSystem_EE/xv6_ssu_init.tar.gz.git
+git clone https://github.com/se0nShine/OperatingSystem_EE
+cd OperatingSystem_EE
 tar xvzf xv6_ssu_init.tar.gz
 cd xv6_ssu_init
 make qemu-nox
