@@ -13,7 +13,7 @@ sudo apt-get install git
 Sudo apt-get install qemu
 ```
 
-1. xv6 설치를 위해 다음 명령어들 실행
+3. xv6 설치를 위해 다음 명령어들 실행
 
 ```bash
 cd
@@ -24,7 +24,7 @@ cd xv6_ssu_init
 make qemu-nox
 ```
 
-1. Trouble shooting
+4. Trouble shooting
 
 make qemu-nox 안될경우 kernel.ld를 수정을 해야함 
 
